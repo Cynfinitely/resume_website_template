@@ -1,0 +1,17 @@
+/* You cna change values to get your own colors. */
+:root {
+  --primaryColor: ;
+  --secondaryColor: ;
+  --thirdColor: ;
+  --fourthColor: ;
+  --fifthColor: ;
+}
+
+/* Reseting all default margin and padding of html elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* First we design our website for mobile */
