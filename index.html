@@ -4,9 +4,91 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Resume Website</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- HEADER -->
-    <header class="header"></header>
+    <header class="header">
+      <div class="header__image">
+        <img src="img/profilePicture.png" alt="Profile Picture" />
+      </div>
+      <div class="header__name">
+        <h1>Gerrardy</h1>
+        <h3>Full Stack Developer</h3>
+      </div>
+      <div class="header__time">
+        <p>2024</p>
+      </div>
+    </header>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contactMe">Contact Me</a></li>
+      </ul>
+    </nav>
+
+    <main class="main">
+      <!--  About -->
+      <section class="about" id="about">
+        <h3>ABOUT ME</h3>
+        <!--      Write something about yourself here. -->
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt
+          molestias perspiciatis numquam quae laudantium adipisci. Soluta
+          corporis, dicta odio voluptates sapiente consequuntur sequi, modi non
+          in nobis repudiandae quidem explicabo!
+        </p>
+      </section>
+
+      <!-- Projects -->
+      <section class="projects" id="projects">
+        <h3>PROJECTS</h3>
+        <ul>
+          <li><a href="">PROJECT 1</a></li>
+          <li><a href="">PROJECT 2</a></li>
+          <li><a href="">PROJECT 3</a></li>
+        </ul>
+      </section>
+
+      <!-- Skills -->
+      <section class="skills" id="skills">
+        <h3>SKILLS</h3>
+        <ul>
+          <li>
+            HARD SKILLS
+            <ul>
+              <li>JAVA</li>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </li>
+          <li>
+            SOFT SKILLS
+            <ul>
+              <li>Teamwork</li>
+              <li>Communication</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Contact Me -->
+      <section class="contactMe" id="contactMe">
+        <h3>CONTACT ME</h3>
+        <ul>
+          <li><a href="">Linkedin</a></li>
+          <li><a href="">GitHub</a></li>
+        </ul>
+      </section>
+    </main>
+
+    <!--  FOOTER -->
+    <footer class="footer">
+      <p>&copy; 2021 Gerrardy. £All rights reserved.</p>
+    </footer>
   </body>
 </html>
